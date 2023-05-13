@@ -1,0 +1,95 @@
+.home-current-weather-details-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .home-current-weather-location-name {
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bree sherif';
+  }
+  
+  .home-current-weather-location-temp {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+  }
+  
+  .home-current-weather-location-temp-c {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
+    margin-left: 10px;
+  }
+  
+  .home-current-weather-location-temp-sky {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .home-current-date-min-max {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto';
+    margin-top: 0px;
+  }
+  
+  .home-current-location-weather-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .home-current-location-weather-bg-card {
+    background-color: rgb(245, 233, 235);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-current-location-weather-card-tittle {
+    color: #131212;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+  }
+  
+  .home-current-location-weather-card-description {
+    color: brown;
+    font-size: 15px;
+    font-family: 'Roboto';
+  }
+  
+  .home-current-location-5day-forecast-list {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+  .home-current-location-5day-forecast-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-current-location-5day-forecast-date {
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto';
+  }
+  

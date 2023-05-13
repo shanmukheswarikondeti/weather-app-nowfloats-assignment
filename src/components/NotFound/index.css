@@ -1,0 +1,21 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .not-found-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .page-not-found-msg {
+    color: #ea6464;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+  

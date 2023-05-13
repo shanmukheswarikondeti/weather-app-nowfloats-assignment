@@ -1,0 +1,98 @@
+.weather-home-page-bg-container {
+    margin: 50px;
+  }
+  
+  .weather-home-page-bg-card {
+    background-color: #b9aaf1;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  .home-page-nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-page-tittle {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+  
+  .home-page-location-weather-card {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  
+  .home-page-spinner-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .home-favorite-places-tittle {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bree sherif';
+  }
+  
+  .home-page-favorite-places-list {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .home-page-favorite-places-list-empty {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  
+  .home-search-button {
+    color: #222222;
+    background-color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .home-page-favorite-places-list-item {
+    border: 2px solid black;
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-right: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: #f90707;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+  
